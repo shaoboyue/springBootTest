@@ -1,0 +1,14 @@
+spring:
+  security:
+    user:
+      name: user
+      password: 123456
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true
+server:
+  port: 8888
+datasource:
+  name: xiaoming
+  password: 123456
